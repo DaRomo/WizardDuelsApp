@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.WizardDuels"
+      android:installLocation="preferExternal"
+      android:versionCode="1"
+      android:versionName="1.0"
+      android:icon="@drawable/icon">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application 
+    	android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".WizardDuels7Activity" android:screenOrientation="portrait">
+        
+        <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+		<activity android:name=".Instructions" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Story" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Gameplay" android:screenOrientation="portrait"></activity>
+		<activity android:name=".WinScreen" android:screenOrientation="portrait"></activity>
+		<activity android:name=".LoseScreen" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Screen" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Prefs" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Credits" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Options2" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Fireball" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Wizard" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".SpellSlot" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Mana" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Credits2" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Music" android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

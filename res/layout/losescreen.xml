@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" 
+  		android:background="@drawable/losescreen" 
+  		android:orientation="horizontal" 
+  		android:gravity="bottom|center">
+	<Button 
+		android:id="@+id/main_menu_button" 
+		android:layout_width="100dip" 
+		android:layout_height="30dip" 
+		android:background="@drawable/mainmenubutton"
+		android:layout_marginRight="15dip">	
+	</Button>
+	<Button 
+		android:id="@+id/play_again_button" 
+		android:layout_width="100dip" 
+		android:layout_height="30dip" 
+		android:background="@drawable/playagainbutton"
+		android:layout_marginRight="15dip">	
+	</Button>
+	<Button 
+		android:id="@+id/credits_button" 
+		android:layout_width="100dip" 
+		android:layout_height="30dip"
+		android:background="@drawable/creditsbutton">
+	</Button>
+</LinearLayout>

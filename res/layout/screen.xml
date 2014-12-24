@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/menu"
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:padding="60dip"
+    android:orientation="horizontal"
+
+>
+	<LinearLayout
+		android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_marginTop="25dip"
+    >	
+    	<Button 
+    		android:id="@+id/start_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="50dip"
+    		android:layout_gravity="center"
+    		android:background="@drawable/startbutton"
+    	/>
+    	<Button 
+    		android:id="@+id/instructions_button"
+   	 		android:layout_width="wrap_content"
+   	 		android:layout_height="50dip"
+    		android:layout_below="@+id/Start_button"
+    		android:background="@drawable/instructionsbutton2"
+    	/>
+    	<Button 
+    		android:id="@+id/story_button"
+    		android:layout_width="fill_parent"
+    		android:layout_height="50dip"
+    		android:layout_below="@+id/Instructions_button"
+    		android:background="@drawable/storybutton"
+    	/>
+    	<Button 
+    		android:id="@+id/settings_button"
+    		android:layout_width="fill_parent"
+    		android:layout_height="50dip"
+    		android:layout_below="@+id/Story_button"
+    		android:background="@drawable/settingsbutton"
+    	/>
+ 	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<array name="difficulty">
+ 		<item>Easy</item>
+ 		<item>Medium</item>
+ 		<item>Hard</item>
+ 		<item>Expert</item>
+ 	</array>  
+ 	<array name="spells">
+ 		<item>Giga Fireball</item>
+ 		<item>Shield</item>
+ 		<item>Invert</item>
+ 		<item>Boost</item>
+ 		<item>Hamburger</item>	
+ 		<item>Erase</item>
+ 	</array> 
+ 	<array name="diffValues">
+ 		<item>1</item>
+ 		<item>2</item>
+		<item>3</item> 	
+ 		<item>4</item>
+ 	</array>
+ 	<array name="spellValues">
+ 		<item>1</item>
+ 		<item>2</item>
+		<item>3</item> 	
+ 		<item>4</item>
+ 		<item>5</item>
+ 		<item>6</item>
+ 	</array>
+</resources>

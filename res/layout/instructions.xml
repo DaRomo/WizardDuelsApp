@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="10dip"
+  android:background="@drawable/instructions"
+  android:gravity="bottom|left">  
+  <Button
+ 	android:background="@drawable/backbutton"
+ 	android:id="@+id/back_button3"
+    android:layout_width="80dip"
+    android:layout_height="30dip">
+   </Button>			
+</LinearLayout>

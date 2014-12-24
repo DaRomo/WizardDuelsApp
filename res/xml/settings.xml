@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+  	android:key="diff"
+  	android:title="@string/difficulty"
+  	android:summary="@string/select"
+  	android:entries="@array/difficulty"
+  	android:entryValues="@array/diffValues"
+  	/>
+  <ListPreference
+  	android:key="sp1"
+  	android:title="@string/spell1title"
+  	android:summary="@string/spell1"
+  	android:entries="@array/spells"
+  	android:entryValues="@array/spellValues"
+  	/>
+  	<ListPreference
+  	android:key="sp2"
+  	android:title="@string/spell2title"
+  	android:summary="@string/spell2"
+  	android:entries="@array/spells"
+  	android:entryValues="@array/spellValues"
+  	/>
+  	<ListPreference
+  	android:key="sp3"
+  	android:title="@string/spell3title"
+  	android:summary="@string/spell3"
+  	android:entries="@array/spells"
+  	android:entryValues="@array/spellValues"
+  	/>
+  <CheckBoxPreference
+  	android:key="music"
+  	android:title="@string/music_title"
+  	android:summary="@string/music_summary"
+  	android:defaultValue="true"
+  />
+</PreferenceScreen>
