@@ -1,4 +1,4 @@
 WizardDuelsApp
 ==============
 
-A basic Android game
+An Android game
